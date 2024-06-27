@@ -1,6 +1,3 @@
-# Usage
-### Please add following code 
-```
 module "app" {
   source    = "./module"
   namespace = "default"
@@ -18,5 +15,5 @@ image:
   tag: "latest"
   EOF
   ]
+
 }
-```
